@@ -8,20 +8,22 @@
    <meta name="author" content="Your Name">
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
-   <title>Food Recipe</title>
+   <title>Delicious Recipe</title>
 </head>
 
 <body>
    <!--==================== HEADER ====================-->
    <header class="header" id="header">
       <nav class="nav container">
-         <a href="#" class="nav__logo">Food Recipe</a>
+         <a href="#" class="nav__logo">Delicious Recipe</a>
 
          <div class="nav__menu" id="nav-menu">
             <ul class="nav_list">
                <li><a href="#home" class="nav__link active-link">Home</a></li>
                <li><a href="#recipes" class="nav__link">Recipes</a></li>
-               <li><a href="#meal" class="nav__link">API Suggestion</a></li>
+               <li><a href="#meal" class="nav__link">Suggestion</a></li>
+               <li><a href="#booking" class="nav__link">Booking</a></li>
+               <li><a href="#testimonies" class="nav__link">Testimonies</a></li>
                <li><a href="#contact" class="nav__link">Contact</a></li>
             </ul>
 
@@ -43,112 +45,190 @@
    <main class="main">
       <!--==================== HOME ====================-->
       <section class="home section" id="home">
-         <div class="home_container container grid">
-            <img src="images/home.jpg" alt="image" class="home_img">
-
-            <div class="home_data">
-               <h1 class="home_name">Get Food Recipe</h1>
-               <h3 class="home_note">Explore Recipes</h3>
+         <div class="home-hero">
+            <img src="images/home.png" alt="Restaurant interior" class="home-hero-img">
+            <div class="home-hero-overlay"></div>
+            <div class="home-hero-content">
+               <h1 class="home-restaurant-name">Tastify</h1>
+               <p class="home-tagline">Welcome to a world of taste & tradition</p>
+               <a href="#booking" class="button home-cta">Book a Table</a>
             </div>
-
-            <a href="#recipes" class="home_scroll">
-
-               <div class="home_scroll-box">
-                  <i class="ri-arrow-down-line"></i>
-               </div>
-
-               <span class="home_scroll-text">Browse Recipes</span>
-
-            </a>
-
          </div>
-
       </section>
 
       <!--==================== RECIPES ====================-->
       <section class="recipes section" id="recipes">
-         <h2 class="section__title">Our Recipes</h2>
-
-         <div class="recipes_container container grid">
-            <article class="recipe_card">
-               <a href="#" class="recipe_link">
-                  <div class="recipe_img-container">
-                     <img src="images/1.jpg" alt="Spaghetti Carbonara" class="recipe_img">
+         <div class="recipes-bg"></div>
+         <h2 class="section__title">Our Menu</h2>
+         <p class="recipes-subtitle">Discover our chef's selection of exquisite dishes, crafted with passion and the finest ingredients.</p>
+         <div class="restaurant-menu-grid">
+            <div class="menu-category">
+               <h3 class="menu-category-title">Appetizer</h3>
+               <div class="menu-item">
+                  <img src="images/Bruschetta.png" alt="Bruschetta" class="menu-item-img">
+                  <div class="menu-item-info">
+                     <h4 class="menu-item-name">Bruschetta</h4>
+                     <p class="menu-item-desc">Grilled bread topped with fresh tomatoes, garlic, basil, and a splash of olive oil.</p>
+                     <a href="https://natashaskitchen.com/classic-bruschetta-recipe/" class="button menu-item-btn" target="_blank">View Recipe</a>
                   </div>
-                  <div class="recipe_content">
-                     <h2 class="recipe_title">Spaghetti Carbonara</h2>
-                     <p class="recipe_description">A classic Italian pasta dish made with eggs, cheese, pancetta, and
-                        pepper.</p>
-                     <a href="https://youtu.be/3AAdKl1UYZs" target="_blank"><button class="button recipe_button">Watch
-                           Tutorial</button></a>
+               </div>
+            </div>
+            <div class="menu-category">
+               <h3 class="menu-category-title">Main Course</h3>
+               <div class="menu-item">
+                  <img src="images/Grilled Salmon.png" alt="Grilled Salmon" class="menu-item-img">
+                  <div class="menu-item-info">
+                     <h4 class="menu-item-name">Grilled Salmon</h4>
+                     <p class="menu-item-desc">Fresh salmon fillet grilled to perfection, served with seasonal vegetables.</p>
+                     <a href="https://www.allrecipes.com/recipe/12720/grilled-salmon-i/" class="button menu-item-btn" target="_blank">View Recipe</a>
                   </div>
-               </a>
-            </article>
-
-            <article class="recipe_card">
-               <a href="#" class="recipe_link">
-                  <div class="recipe_img-container">
-                     <img src="images/2.jpg" alt="Chicken Tikka Masala" class="recipe_img">
+               </div>
+            </div>
+            <div class="menu-category">
+               <h3 class="menu-category-title">Dessert</h3>
+               <div class="menu-item">
+                  <img src="images/Tiramisu.png" alt="Tiramisu" class="menu-item-img">
+                  <div class="menu-item-info">
+                     <h4 class="menu-item-name">Tiramisu</h4>
+                     <p class="menu-item-desc">Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream.</p>
+                     <a href="https://whatsgabycooking.com/classic-italian-tiramisu/" class="button menu-item-btn" target="_blank">View Recipe</a>
                   </div>
-                  <div class="recipe_content">
-                     <h2 class="recipe_title">Chicken Tikka Masala</h2>
-                     <p class="recipe_description">A popular Indian dish made with marinated chicken and a spiced tomato
-                        sauce.</p>
-                     <a href="https://youtu.be/lnRmIKkGCIA" target="_blank"><button class="button recipe_button">Watch
-                           Tutorial</button></a>
-                  </div>
-               </a>
-            </article>
-
-            <article class="recipe_card">
-               <a href="#" class="recipe_link">
-                  <div class="recipe_img-container">
-                     <img src="images/3.jpg" alt="Chocolate Cake" class="recipe_img">
-                  </div>
-                  <div class="recipe_content">
-                     <h2 class="recipe_title">Chocolate Cake</h2>
-                     <p class="recipe_description">A rich and moist chocolate cake topped with creamy chocolate
-                        frosting.</p>
-                     <a href="https://youtu.be/vI5w-fK25w4" target="_blank"><button class="button recipe_button">Watch
-                           Tutorial</button></a>
-                  </div>
-               </a>
-            </article>
-
-            <!-- Add more recipe cards as needed -->
+               </div>
+            </div>
          </div>
       </section>
 
       <!--==================== MEAL suggestion====================-->
       <section id="meal" class="meal-section">
          <div class="container">
-            <h2 class="meal-title">Get Suggestion using API</h1>
-               <div class="category-buttons">
-                  <button class="category-button" data-category="Chicken">Chicken</button>
-                  <button class="category-button" data-category="Beef">Beef</button>
-                  <button class="category-button" data-category="Vegetarian">Vegetarian</button>
-                  <button class="category-button" data-category="Seafood">Seafood</button>
-                  <button class="category-button" data-category="Dessert">Dessert</button>
+            <h2 class="meal-title">Suggestions</h2>
+            <p class="meal-subtitle">Get personalized dish suggestions based on your preferences. Simply select a category, <br> and delicious recipes will be fetched dynamically from TheMealDB API.</p>
+            <form id="meal-suggestion-form" class="meal-form">
+               <div class="meal-form-group">
+                  <label for="meal-category">Category</label>
+                  <select id="meal-category" name="category" class="meal-input" required>
+                     <option value="">Choose a category</option>
+                     <option value="Chicken">Chicken</option>
+                     <option value="Beef">Beef</option>
+                     <option value="Vegetarian">Vegetarian</option>
+                     <option value="Seafood">Seafood</option>
+                     <option value="Dessert">Dessert</option>
+                  </select>
                </div>
-               <div id="meal-cards" class="meal-cards-container">
-                  <!-- Meal cards will be dynamically inserted here -->
+               <button type="submit" class="button meal-submit-btn">Get Suggestion</button>
+            </form>
+            <div id="meal-suggestion-result" class="meal-suggestion-result">
+               <!-- Meal suggestion will be displayed here -->
+            </div>
+         </div>
+      </section>
+
+      <!--==================== RESTAURANT BOOKING ====================-->
+      <section id="booking" class="booking-section">
+         <div class="container">
+            <h2 class="booking-title">Book a Table</h2>
+            <p class="booking-subtitle">Reserve your spot for an unforgettable dining experience.</p>
+            <div class="booking-box">
+               <form id="booking-form" class="booking-form">
+                  <div class="booking-form-row">
+                     <input type="text" id="booking-name" name="name" class="booking-input" placeholder="Name" required />
+                     <input type="email" id="booking-email" name="email" class="booking-input" placeholder="Email" required />
+                  </div>
+                  <div class="booking-form-row">
+                     <input type="tel" id="booking-phone" name="phone" class="booking-input" placeholder="Phone" required />
+                     <input type="date" id="booking-date" name="date" class="booking-input" required />
+                  </div>
+                  <div class="booking-form-row">
+                     <input type="time" id="booking-time" name="time" class="booking-input" required />
+                     <input type="number" id="booking-guests" name="guests" class="booking-input" placeholder="Guests" min="1" max="20" required />
+                  </div>
+                  <textarea id="booking-requests" name="requests" class="booking-input booking-textarea" placeholder="Special Requests (optional)"></textarea>
+                  <button type="submit" class="button booking-submit">Book Now</button>
+               </form>
+               <div id="booking-result" class="booking-result"></div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== TESTIMONIES ====================-->
+      <section class="testimonies-section" id="testimonies">
+         <div class="container">
+            <h2 class="testimonies-title">What Our Guests Say</h2>
+            <p class="testimonies-subtitle">Stories from our happy diners</p>
+            <div class="testimonies-grid">
+               <div class="testimony-card">
+                  <img src="images/Sophia.png" alt="Profile 1" class="testimony-img">
+                  <div class="testimony-content">
+                     <h3 class="testimony-name">Sophia R.</h3>
+                     <div class="testimony-rating">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                     </div>
+                     <p class="testimony-message">“Absolutely wonderful! The food was exquisite and the atmosphere made our night special. Highly recommended.”</p>
+                  </div>
                </div>
+               <div class="testimony-card">
+                  <img src="images/Liam.png" alt="Profile 2" class="testimony-img">
+                  <div class="testimony-content">
+                     <h3 class="testimony-name">Liam T.</h3>
+                     <div class="testimony-rating">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                     </div>
+                     <p class="testimony-message">“A true culinary gem. Every dish was a delight and the staff made us feel like VIPs. Will definitely return!”</p>
+                  </div>
+               </div>
+               <div class="testimony-card">
+                  <img src="images/Emily.png" alt="Profile 3" class="testimony-img">
+                  <div class="testimony-content">
+                     <h3 class="testimony-name">Emily W.</h3>
+                     <div class="testimony-rating">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                     </div>
+                     <p class="testimony-message">“From start to finish, a perfect dining experience. The chef's suggestions were spot on. Thank you!”</p>
+                  </div>
+               </div>
+            </div>
          </div>
       </section>
 
       <!--==================== CONTACT ====================-->
       <section class="contact section" id="contact">
-         <h2 class="section__title">Contact Us</h2>
-         <div class="contact__container container grid">
-            <form action="https://formspree.io/f/xnnqqqbe" method="POST" class="contact__form grid" id="contact-form">
-               <div class="contact__group grid">
-                  <input type="text" name="name" placeholder="Name" required class="contact__input">
-                  <input type="email" name="email" placeholder="E-mail" required class="contact__input">
-               </div>
-               <textarea name="message" placeholder="Message" class="contact__input contact__area"></textarea>
-               <button type="submit" class="button contact__button">Send Message</button>
-               <p class="contact__message" id="contact-message"></p>
-            </form>
+         <div class="container">
+            <h2 class="contact-title">Contact Us</h2>
+            <p class="contact-subtitle">We'd love to hear from you! Please fill out the form below and our team will get back to you soon.</p>
+            <div class="contact-box">
+               <form action="https://formspree.io/f/xnnqqqbe" method="POST" class="contact-form" id="contact-form">
+                  <div class="contact-form-row">
+                     <div class="contact-form-group">
+                        <label for="contact-name" class="contact-label">Name</label>
+                        <input type="text" id="contact-name" name="name" class="contact-input" placeholder="Your Name" required />
+                     </div>
+                     <div class="contact-form-group">
+                        <label for="contact-email" class="contact-label">Email</label>
+                        <input type="email" id="contact-email" name="email" class="contact-input" placeholder="Your Email" required />
+                     </div>
+                  </div>
+                  <div class="contact-form-row">
+                     <div class="contact-form-group full-width">
+                        <label for="contact-message" class="contact-label">Message</label>
+                        <textarea id="contact-message" name="message" class="contact-input contact-textarea" placeholder="Type your message here..." required></textarea>
+                     </div>
+                  </div>
+                  <button type="submit" class="button contact-submit">Send Message</button>
+                  <p class="contact__message" id="contact-message-status"></p>
+               </form>
+            </div>
          </div>
       </section>
 
@@ -161,6 +241,8 @@
             <li><a href="#home" class="footer__link">Home</a></li>
             <li><a href="#recipes" class="footer__link">Recipes</a></li>
             <li><a href="#meal" class="footer__link">Suggestion</a></li>
+            <li><a href="#booking" class="footer__link">Booking</a></li>
+            <li><a href="#testimonies" class="footer__link">Testimonies</a></li>
             <li><a href="#contact" class="footer__link">Contact</a></li>
          </ul>
          <span class="footer__copy">&#169; 2025 by <a href="https://rabumaabraham.github.io/#home"
