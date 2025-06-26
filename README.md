@@ -1,6 +1,6 @@
-# Recipe Explorer Web Application
+# Powercoders Delicious Recipe Web App
 
-A dynamic web application where users can explore recipes from various categories, view detailed meal information, and enjoy a modern, responsive interface. Built as part of my **Powercoders application task**, this app integrates with TheMealDB API to fetch and display meal data.
+An interactive and responsive web application that allows users to discover and explore delicious recipes from a variety of categories. Built as part of my Powercoders application task, this project integrates TheMealDB API to deliver real-time meal data with a smooth and engaging user experience.
 
 ## Table of Contents
 
@@ -9,19 +9,20 @@ A dynamic web application where users can explore recipes from various categorie
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Screenshots](#screenshots)
 
 
 ## Features
 
-- **Dynamic Navigation**: Provides a responsive navigation menu with show/hide functionality.
-- **Recipe Browsing**: Dynamically fetches and displays recipes based on selected categories using TheMealDB API.
-- **Meal Details**: Displays detailed information about meals, including ingredients and measurements.
-- **Scroll Effects**: Includes header blur effects, active link highlighting, and a scroll-to-top button for smooth navigation.
-- **Interactive Animations**: Enhances user experience with scroll reveal animations.
+- **Responsive Navigation Menu: Smoothly show or hide the navigation bar for better accessibility on all devices.
+- **Explore by Category: Browse meals by selecting different categories, with real-time data fetched from TheMealDB API.
+- **Detailed Meal View: Get complete meal information, including ingredients, measurements, and preparation details.
+- **Smooth Scroll Effects: Enjoy enhanced navigation with header blur on scroll, active link highlighting, and a scroll-to-top button.
+- **Engaging Animations: Scroll reveal animations create a dynamic and modern browsing experience.
 
 ## Demo
 
-Check out the live demo of the project [here](https://rabumaabraham.github.io/powercoders-food-recipe/#).
+👉 Try the Live Demo [here](https://rabumaabraham.github.io/Powercoders-Delicious-Recipe/).
 
 ## Technologies Used
 
@@ -35,13 +36,13 @@ Check out the live demo of the project [here](https://rabumaabraham.github.io/po
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/rabumaabraham/powercoders-food-recipe.git
+    git clone https://github.com/rabumaabraham/Powercoders-Delicious-Recipe
     ```
 
 2. **Navigate into the project directory**:
 
     ```bash
-    cd powercoders-food-recipe
+    cd Powercoders Delicious Recipe
     ```
 
 3. **Open the project**:
@@ -51,11 +52,11 @@ Check out the live demo of the project [here](https://rabumaabraham.github.io/po
 ## Usage
 
 1. Open the application in your browser.
-2. Use the navigation menu to select.
-3. View the dynamically fetched recipes displayed on the screen.
-4. Use the scroll-to-top button or navigate through categories for a seamless browsing experience.
+2. Use the navigation menu to explore meal categories.
+3. Click on any meal to view its detailed recipe and ingredients.
+4. Scroll through the app to enjoy dynamic effects and easily return to the top using the scroll-to-top button.
+
 
 ## Screenshots
 
-![Recipe Explorer Screenshot](https://github.com/user-attachments/assets/a6b2da8d-2c2f-467a-abff-f0c9ea3e235f)
-
+![image](https://github.com/user-attachments/assets/dedbc581-a52f-4766-a089-8fdce5e9d16c)
