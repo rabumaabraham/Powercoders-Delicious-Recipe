@@ -15,10 +15,10 @@ An interactive and responsive web application that allows users to discover and 
 ## Features
 
 - **Responsive Navigation Menu:** Smoothly show or hide the navigation bar for better accessibility on all devices.
-- **Explore by Category: Browse meals by selecting different categories, with real-time data fetched from TheMealDB API.
-- **Detailed Meal View: Get complete meal information, including ingredients, measurements, and preparation details.
-- **Smooth Scroll Effects: Enjoy enhanced navigation with header blur on scroll, active link highlighting, and a scroll-to-top button.
-- **Engaging Animations: Scroll reveal animations create a dynamic and modern browsing experience.
+- **Explore by Category:** Browse meals by selecting different categories, with real-time data fetched from TheMealDB API.
+- **Detailed Meal View:** Get complete meal information, including ingredients, measurements, and preparation details.
+- **Smooth Scroll Effects:** Enjoy enhanced navigation with header blur on scroll, active link highlighting, and a scroll-to-top button.
+- **Engaging Animations:** Scroll reveal animations create a dynamic and modern browsing experience.
 
 ## Demo
 
