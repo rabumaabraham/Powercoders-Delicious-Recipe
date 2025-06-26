@@ -171,7 +171,7 @@ img {
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     width: 80%;
-    height: 55%;
+    height: 75%;
     padding: 7rem 3rem;
     transition: right .4s;
     opacity: 0;
